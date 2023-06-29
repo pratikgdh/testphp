@@ -1,5 +1,11 @@
-
 <?php
+/*
+Plugin Name: Amazon Geo Affiliate
+Description: Plugin to convert Amazon affiliate links based on visitor's country
+Author: Your Name
+Version: 1.0
+*/
+
 $response = wp_remote_get( 'https://www.amazon.in/dp/B0BQHBWPYX/?tag=lightappssk-21' );
 
 
